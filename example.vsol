@@ -1,0 +1,41 @@
+# VSOL - Versatile Simple Objective Language
+
+# Base object
+# This is a comment
+string = "# This is not a comment"
+
+.project
+    site_name = "VSOL"
+    version = "0.0.1"
+    description = "VSOL - Versatile Simple Objective Language"
+    authors = ["VSOL Team", "VSOL Contributors", "VSOL Users"]
+
+.const
+    const1 = "This is a const"
+
+.debug
+    debug = true
+
+.contact
+    authors_email = ["example@mail.com"]
+
+.project_urls
+    Documentation = "https://example.com"
+    Github = "https://github.com/vsol-lang/vsol"
+
+.license
+    license = "MIT"
+
+# Multi-level object
+.inner1 
+    
+    .inner2
+        
+        .inner3
+            inner3 = "This is a inner3"
+        
+        .inner4
+            inner4 = "This is a inner4"
+
+    .inner5
+        inner5 = "This is a inner5"
